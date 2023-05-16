@@ -18,6 +18,7 @@ int main()
     EVP_MD_CTX *ctx = EVP_MD_CTX_new();
     EVP_MD_CTX *ctx2 = EVP_MD_CTX_new();
     
+    
     if (!ctx || !ctx2) {
         fprintf(stderr, "Error: EVP_MD_CTX_new\n");
         goto err;
