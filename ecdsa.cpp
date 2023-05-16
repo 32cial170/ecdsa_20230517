@@ -16,7 +16,7 @@ int main()
     size_t msglen = strlen((const char *)msg);
 
     EVP_MD_CTX *ctx = EVP_MD_CTX_new();
-    EVP_MD_CTX *ctx2 = EVP_MD_CTX_new();
+    //EVP_MD_CTX *ctx2 = EVP_MD_CTX_new();
     
     
     if (!ctx || !ctx2) {
